@@ -1,32 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.home{
-    
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(13, 224, 101);
-    margin-top: 0px;
-}
-.fl{
-    float: right;
-    position: absolute;
-    left: 0px;
-    top: 20px;
-    height: 00px;
-    width: 100%;
-    background-color: rgb(10, 131, 131);
-}
-.ml{
-    margin-left:20px;
-    background-color: none;
-}
-.ml1{
-    margin-left: 300px;
-}
-.color{
-  color: rgb(13,224,101);  
-
+#myButton {
+  background-color: blue; /* Default color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }

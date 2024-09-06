@@ -49,6 +49,16 @@
 .ml1{
     margin-left: 300px;
 }
+.ml-600px{
+    margin-left:700px ;
+}
+/* .pt{
+    height: 95px;
+    width: 100px;
+    padding:10px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 10px 10px 10px 10px;
+} */
 .color{
   color: rgb(13,224,101);  
 
@@ -135,18 +145,19 @@ width: 40%;
     
  
     height: 300px;
-    width: 25%;
+    width: 20%;
     margin: 5px;
     border-radius: 10px 10px 10px 10px;
-    background-color: rgb(52, 190, 190);
+    background-color: gainsboro;
+    margin-left: 100px;
 }
 .section2-box2{
 
     margin: 5px;
     height: 300px;
-    width: 25%;
+    width: 20%;
     border-radius: 10px 10px 10px 10px;
-    background-color: rgb(0, 0, 0);
+    background-color:gainsboro;
 }
 .section2-image{
     height: 70px;
@@ -155,21 +166,28 @@ width: 40%;
     border-radius: 100%;
     margin-top: 100px;
     
-    margin-left: 120px;
+    margin-left: 100px;
 }
 .section2-content-heading{
     height: 30px;
-    width: 40%;
-    background-color: bisque;
+    width: 60%;
+    /* background-color: bisque; */
     margin-top:10px ;
-    margin-left: 100px;
+    margin-left: 80px;
+    
+    font-size: 20px;
+    font-family: sans-serif;
+
 }
 .section2-image-para{
     height: 50px;
-    width: 30%;
-    background-color: azure;
-    margin-top: 10px;
-    margin-left: 100px;
+    width: 70%;
+    /* background-color: azure; */
+    margin-top: 18px;
+    margin-left: 60px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 .carousel-inner{
     /* position: relative; */
@@ -214,17 +232,85 @@ width: 40%;
 .section3-cart-button{
 height: 40px;
 width: 50%;
-background-color: rgb(36, 94, 145);
+background-color: rgb(246, 248, 250);
 border-radius: 10px 10px 10px 10px;
 margin-left: 150px;
+border: 1px solid orange;
+color: rgb(5, 225, 5);
+font-size: 16px;
 }
 .section3-image-text{
     position: absolute;
     height: 40px;
     width: 30%;
-    background-color: aqua;
+    /* background-color: aqua;
+     */
+     margin-left: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
 
 }
+.section-4{
+    position: relative;
+    height: 100px;
+    width: 30%;
+    margin-left: 100px;
+    /* background-color: aqua; */
+    font-size: 27px;
+font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 00px;
+    padding-top: 23px;
+}
+.section-4-button{
+     display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100px;
+    width: 170%;
+    top: 0px;
+    left: 550px;
+    /* background-color: rgb(206, 208, 208); */
+    border-radius: 20px 20px 20px 20px;
+}
+.section4-button1{
+   
+    height: 40px;
+    width: 20%;
+    margin-top: 30px;
+    left: 0px;
+    margin-left:5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 7px;
+    background-color: rgb(218, 219, 219);
+    border-radius: 20px 20px 20px 20px;
+}
+.section4-button1:hover{
+    background-color: orange;
+}
+
+.margin-top50px{
+    margin-top: 50px;
+}
+.section3-image-heading{
+    height: 30px;
+    width: 50%;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-left: 70px;
+}
+.section3-image-para{
+    color: grey;
+    height: 100px;
+    width: 70%;
+    margin-left: 50px;
+    /* background-color: blanchedalmond; */
+}
+
 @media screen and (max-width:500px) {
    .card-img{
     height: 300px;
@@ -296,4 +382,5 @@ margin-top: 10px;
     height: auto;
     width: 40%;
 }
+
 }
