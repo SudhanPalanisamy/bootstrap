@@ -139,7 +139,7 @@ width: 40%;
     height: 400px;
     width: 100%;
     display: flex;
-`
+
 }
 .section2-box1{
     
@@ -229,6 +229,12 @@ width: 40%;
     opacity: 0.8;
     color: white;
 }
+.card-img-top{
+
+}
+.card-img-top:hover{
+    
+}
 .section3-cart-button{
 height: 40px;
 width: 50%;
@@ -310,6 +316,9 @@ font-family: sans-serif;
     margin-left: 50px;
     /* background-color: blanchedalmond; */
 }
+.card{
+    width: 100%;
+}
 
 @media screen and (max-width:500px) {
    .card-img{
@@ -348,19 +357,26 @@ font-family: sans-serif;
     display: none;
    }
    .slide{
-    top: 300px;
+    top: 400px;
     left: 25px;
     
    }
+   .card-img{
+    height: 500px;
+   }
    .slide-text{
+    height: 20px;
+
     opacity: 0.8;
     top: 20px;
     left: 10px;
     width: 100px;
     text-align: center;
+    font-size: 10px;
+
    }
 .section2{
-    height: 600px;
+    height: 800px;
     width: 100%;
     flex-direction: column;
 }
@@ -382,5 +398,31 @@ margin-top: 10px;
     height: auto;
     width: 40%;
 }
-
+.carousel-caption{
+    margin-top: 10px;
+}
+.section-4{
+    height:300px;
+    width: 100%;
+    margin-left: 10px;
+}
+.section-4-button{
+    flex-direction: column;
+    left: 100px;
+    top: 50px;
+}
+.section4-button1{
+    height: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+.section3-image-heading{
+    height: auto;
+margin-left: 40px;
+}
+.section3-image-para{
+    height: auto;
+    margin-left: 50px;
+    width:%;
+}
 }
