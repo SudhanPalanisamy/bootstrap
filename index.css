@@ -182,7 +182,7 @@ width: 40%;
 .section2-image-para{
     height: 50px;
     width: 70%;
-    /* background-color: azure; */
+    /* background-color: rgb(51, 212, 212); */
     margin-top: 18px;
     margin-left: 60px;
     color: grey;
@@ -201,6 +201,11 @@ width: 40%;
     float:right;
     
     /* background-color: blue; */
+}
+.ml-mt-20px{
+    margin-top: 20px;
+    margin-left: 20px;
+    
 }
 .slide-text{
     height: 40px;
@@ -273,16 +278,16 @@ font-family: sans-serif;
     flex-direction: row;
     position: absolute;
     height: 100px;
-    width: 170%;
+    width: 150%;
     top: 0px;
-    left: 550px;
-    /* background-color: rgb(206, 208, 208); */
+    left: 650px;
+    /* background-color: rgb(35, 202, 202); */
     border-radius: 20px 20px 20px 20px;
 }
 .section4-button1{
    
     height: 40px;
-    width: 20%;
+    width: 103px;
     margin-top: 30px;
     left: 0px;
     margin-left:5px;
@@ -292,7 +297,7 @@ font-family: sans-serif;
     font-weight: normal;
     text-align: center;
     padding-top: 7px;
-    background-color: rgb(218, 219, 219);
+    background-color: rgb(191, 192, 192);
     border-radius: 20px 20px 20px 20px;
 }
 .section4-button1:hover{
@@ -317,8 +322,250 @@ font-family: sans-serif;
     /* background-color: blanchedalmond; */
 }
 .card{
+    width:;
+}
+.image-width{
+    height: 400px;
     width: 100%;
 }
+.section-5{
+    position: relative;
+}
+.section-5-box-1{
+    position: absolute;
+    height: 130px;
+    width: 20%;
+    top: 250px;
+    left: 130px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+text-align: center;
+     background-color: rgb(9, 232, 9);
+}
+.section-5-box-3{
+    position: absolute;
+    height: 130px;
+    width: 20%;
+    top: 250px;
+    left: 500px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+text-align: center;
+     background-color: rgb(9, 232, 9);
+}
+.section-5-box-5{
+    position: absolute;
+    height: 130px;
+    width: 20%;
+    top: 250px;
+    left: 850px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+text-align: center;
+     background-color: rgb(9, 232, 9);
+}
+.section-5-box-heading{
+    height: 30px;
+    width: 100%;
+    /* background-color: azure; */
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.section-5-box-para{
+    height: 30px;
+    width: 100%;
+    /* background-color: aquamarine; */
+ text-align: center;
+ padding-top: 30px;
+ padding-left: 4%;
+    color: rgb(54, 129, 54);
+}
+.section-5-border{
+    border: 1px solid orange;
+}
+.section-5-box-2{
+    position: absolute;
+    height: 140px;
+    width: 25%;
+    top: 280px;
+    left: 100px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: orange; 
+}
+.section-5-box-4{
+    
+    height: 140px;
+    width: 100%;
+
+    border-radius: 10px 10px 10px 10px;
+    background-color: orange; 
+}
+.mt-100{
+    margin-top: 100px;
+}
+.col1{
+    width: 25%;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.col1{
+    height: 400px;
+    width: 25%;
+}
+.section-6{
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 40%;
+     /* background-color: black; */ */
+     
+     
+}
+.section-6-box1{
+    position: absolute;
+    height: 100px;
+    width: 60%;
+    /* background-color: aqua; */
+    left: 1000px;
+    top: 0;
+}
+.section-6-arrow-1{
+    
+    height: 40px;
+    width: 30%;
+    /* background-color: rgb(4, 0, 255); */
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 10px 10px 10px 10px;
+border: 1px solid orange;
+}
+.section-6-arrow-2{
+    position: absolute;
+    height: 40px;
+    width: 30%;
+    /* background-color: rgb(4, 0, 255); */
+    border: ;
+    top: 30px;
+    margin-left: 200px;
+    border-radius: 10px 10px 10px 10px;
+border: 1px solid orange;
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  
+}
+.height-500px{
+    height: 500px;
+    
+}
+.card1 {
+  height: 450px;
+  width: 21%;
+  float: left;
+  position: relative;
+  border: 2px solid green;
+  border-radius: 5px 5px 5px 5px;
+
+}
+.section6-image-button{
+    position: absolute;
+    height: 40px;
+    width: 25%;
+    background-color: rgb(8, 230, 8);
+    top: 10px;
+    right:10px;
+    border-radius:5px 5px 5px 5px;
+    border: none;
+    opacity: 0.8;
+    color: white;
+}
+.section6-cart-button{
+height: 40px;
+width: 45%;
+background-color: rgb(246, 248, 250);
+border-radius: 10px 10px 10px 10px;
+margin-left: 150px;
+margin-top: 30px;
+border: 1px solid orange;
+color: rgb(5, 225, 5);
+font-size: 16px;
+}
+.section6-image-para{
+    color: grey;
+    height: 50px;
+    width: 70%;
+    margin-left: 20px;
+    /* background-color: blanchedalmond; */
+}
+.section6-image-text{
+    position: absolute;
+    height: 40px;
+    width: 30%;
+    /* background-color: aqua;
+     */
+     margin-top: 35px;
+     margin-left: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
+
+}
+.ml-100{
+    margin-left: 100px;
+}
+.pd-10{
+    padding-left: 100px;
+}
+.section-7{
+    margin-top: 0%;
+    height: 600px;
+    width: 100%;
+    background-color: orange;
+}
+.section-7-heading{
+    height: 50px;
+    width: 60%;
+    /* background-color: aqua; */
+    color: white;
+    
+    
+}
+.margin-top150px{
+    margin-top: 150px
+}
+.section-7-content{
+    height: 90px;
+    width: 50%;
+    color: rgb(113, 114, 114);
+    /* background-color: azure; */
+    margin-top: 20px;
+    font-size: 42px;
+}
+.section-7-box{
+    height:130px;
+    width: 130px;
+    margin-top: 40px;
+    border-radius: 100px;
+    background-color: aqua;
+}
+.section-7-image{
+    background-image: url(./images/img/baner-1.png);
+    height: 550px;
+    width: 100%;
+}
+.pd-top{
+    padding-top: 20px;
+    }
+    .section-7-button{
+        height: 30px;
+        width: 20%;
+        border-radius: 15px;
+        border: 1px solid wheat;
+        background-color: orange    ;
+    }
 
 @media screen and (max-width:500px) {
    .card-img{
@@ -381,15 +628,27 @@ font-family: sans-serif;
     flex-direction: column;
 }
 .section2-box1{
-    height: auto;
+    height:300px;
     width: 80%;
     margin-left: 20px;
 }
 .section2-box2{
-height: auto;
+height: 300px;
 width: 80%;
 margin-left: 20px;
 
+}
+.section2-content-heading{
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.section2-image-para{
+    height: auto;
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 5px;
 }
 .section2-image{
 margin-top: 10px;
@@ -408,13 +667,15 @@ margin-top: 10px;
 }
 .section-4-button{
     flex-direction: column;
-    left: 100px;
+    left: 00px;
     top: 50px;
+    width:100%;
 }
 .section4-button1{
     height: auto;
-    width: 20%;
+    width: 30%;
     margin-top: 20px;
+    margin-left: 50px;
 }
 .section3-image-heading{
     height: auto;
@@ -422,7 +683,118 @@ margin-left: 40px;
 }
 .section3-image-para{
     height: auto;
-    margin-left: 50px;
-    width:%;
+    margin-left: 0px;
+    width:100%;
+}
+.section3-cart-button{
+    height: auto;
+    width: 50%;
+    margin-left: 100px;
+}
+.section3-image-text{
+    height: auto;
+    width: 40%;
+    margin-left: 10px;
+}
+.ml-20{
+    margin-left: 10px;
+}
+.col1{
+    height:500px;
+    width: 100%;
+}
+.ml{
+    margin-left: 10px;
+}
+.margin-top50px{
+    margin-top: 10px;
+}
+.section-5-box-1{
+    top: 200px;
+    
+    width: 70%;
+    left: 50px;
+}
+.section-5-box-heading{
+    height: 30px;
+}
+.section-5-box-para{
+    height: 30px;
+    width: ;
+}
+.section-5-box-2{
+    height: 140px;
+    width: 100%;
+    left: 10px;
+
+}
+.section-5-box-3{
+    height: 130px;
+    width: 70%;
+    left: 50px;
+    top:770px
+}
+.section-5-box-4{
+    height: 140px;
+    top: 100px;
+}
+.section-5-box-5{
+    left: 50px;
+    top: 1300px;
+    width: 70%;
+}
+.section-6{
+    height:200px;
+    width: 100%;
+}
+.ml-100{
+    margin-left: 10px;
+}
+.section-6-box1{
+    left: 150px;
+    height: 200px;
+    top: 20px;
+}
+.section-6-arrow-1{
+    margin-left: 10px;
+}
+.section-6-arrow-2{
+    margin-left: 100px;
+}
+.height-500px{
+    height: 2200px;
+}
+.row1{
+    flex-direction: column;
+}
+.card1{
+    height: auto;
+    width: 100%;
+    margin: 10px;
+}
+.section-7{
+    height:auto;
+    width: 100%;
+}
+.section-7-heading{
+    height: auto;
+    width: 100%;
+}
+.pd-10{
+    padding-left: 10px;
+}
+.margin-top150px{
+    margin-top: 10px;
+}
+.section-7-content{
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+}
+.section-7-image{
+    height: 550px;
+    width: 100%;
 }
 }
+
+

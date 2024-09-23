@@ -1,8 +1,162 @@
-#myButton {
-  background-color: blue; /* Default color */
+*{
+  margin:0;
+  padding: 0;
+}
+.section-8{
+  height: 700px;
+  width: 100%;
+    background-color: rgb(12, 56, 12); 
+}
+.clr{
+  height: 50px;
+  
   color: white;
-  border: none;
-  padding: 10px 20px;
+  /* background-color: aqua; */
+  margin-top: 150px;
+  margin-left:0px;
+}
+
+.section-8-fruits{
+  height: 50px;
+  width: 100%;
+  /* background-color: beige; */
+  color: rgb(39, 212, 39);
+  font-size: 30px;
+  padding-left: 100px;
+}
+.section-8-para{
+  font-size: 20px;
+  color: orange;
+  padding-left: 100px;
+}
+.section-8-search-bar{
+  height: 50px;
+  width: 100%;
+  /* background-color: rgb(2, 37, 25); */
+  padding-top: 20px;
+}
+.section-8-images{
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  /* background-color: blueviolet; */
+ /* background-image: url(./images/img/avatar.jpg); */
+  margin-left: 15px;
+    border: 1px solid orange;
+}
+.section-8-content{
+  height: 50px;
+  width: 100%;
+  /* background-color: blue; */
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  padding-left: 60px;
+}
+.section-8-sub-content{
+  height: 30px;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: 10px;
+padding-left: 60px;
+color: grey;
+}
+
+.section-8-footer{
+  height: 70px;
+  width: 49%;
+  /* background-color: yellow; */
+  margin-top: 80px;
+  padding-left: 100px;
+  display:flex;
+   
+}
+button{
+  height: 50px;
+  width: 50%;
+  /* background-color: blanchedalmond; */
+  border-radius: 25px;
+  border: 2px solid orange;
+  color: green;
+}
+.section-8-images1{
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  /* background-color: blueviolet; */
+margin-left: 15px;
+  border: 1px solid orange;
+}
+.section-8-images2{
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  /* background-color: blueviolet; */
+margin-left: 15px;
+  border: 1px solid orange;
+}
+.section-8-images3{
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  /* background-color: blueviolet; */
+  border: 1px solid orange;
+margin-left: 15px;
+/* background-image: url(./images/img/instagram.512x512.png); */
+}
+.section-8-footer-content{
+  height: 40px;
+  width: 29%;
+  /* background-color: aqua; */
+  
+}
+.section-8-footer-content1{
+  height: 40px;
+  width: 45%;
+  /* background-color: rgb(109, 112, 112); */
+  padding-top: 5px;
+  color: white;
   font-size: 16px;
-  cursor: pointer;
+}
+a{
+  color: green;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+.card{
+  height: 70px;
+  width: 80%;
+   background-color: rgb(12, 56, 12);
+  margin-left: 60px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.card1{
+  height:50px;
+  width: 55%;
+  background-color: rgb(7, 8, 8);
+  margin: 1px;
+  background-image: url(./images/atm\ card.png);
+
+}
+.dflex{
+  display: flex;
+}
+@media screen and (max-width:500px) {
+  .section-8{
+    height: 1900px;
+    width: 100%;
+  }
+  .col{
+      
+    width: 100%;
+  }
+  
 }
